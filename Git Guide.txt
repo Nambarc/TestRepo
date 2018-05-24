@@ -1,0 +1,10 @@
+Git commands/cheat sheet:
+
+make a directory with >mkdir dir_name
+
+initialize as an empty repo with >git init
+
+Add a new file with >touch filename.extension
+
+Keep track of which files git knows about (status) with > git status
+
