@@ -32,7 +32,7 @@ Any commits you make will be applied to the branch you are currently working in.
 Add a remote origin (link project to remote repository)
 $ git remote add origin https://github.com/username/repository-name.git
 
-We can then push our work to the remote location
+We can then push our branch to the remote location
 $ git push -u origin branch-name
 
 NB.
@@ -43,6 +43,9 @@ for it to exist any more. If you want to make future changes you can just make a
 We can pull the most recent changes from the remote repository back to our local repo with the
 command
 $ git pull origin master
+
+We can get a log of the repo using the command
+$ git log
 
 
 
