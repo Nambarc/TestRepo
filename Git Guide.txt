@@ -1,10 +1,35 @@
 Git commands/cheat sheet:
 
-make a directory with >mkdir dir_name
+make a directory with
+$ mkdir dir_name
 
-initialize as an empty repo with >git init
+initialize as an empty repo with
+$ git init
 
-Add a new file with >touch filename.extension
+Add a new file with
+$ touch filename.extension
 
-Keep track of which files git knows about (status) with > git status
+Keep track of which files git knows about (status) with
+$ git status
+
+Add file(s) to the staging area (pre commit collection of files to be committed) this can be done
+with the command
+$ git add filename.txt
+
+Commit changes held in staging are with
+$ git commit
+
+Create a new branch to work in using (no spaces in name!!)
+$ git checkout -b <branch-name$
+
+To check which branch you are working in use
+$ git branch
+
+Add a remote origin (link project to remote repository)
+$ git remote add origin https://github.com/username/repository-name.git
+
+We can then push our work to the remote location
+$ git push -u origin branch-name
+
+
 
