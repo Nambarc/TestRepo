@@ -19,17 +19,23 @@ $ git add filename.txt
 Commit changes held in staging are with
 $ git commit
 
-Create a new branch to work in using (no spaces in name!!)
+Create a new branch to work in using the following command (no spaces in name!!). This will also
+move you into the branch.
 $ git checkout -b <branch-name$
 
 To check which branch you are working in use
 $ git branch
+
+NB.
+Any commits you make will be applied to the branch you are currently working in.
 
 Add a remote origin (link project to remote repository)
 $ git remote add origin https://github.com/username/repository-name.git
 
 We can then push our work to the remote location
 $ git push -u origin branch-name
+
+
 
 
 
