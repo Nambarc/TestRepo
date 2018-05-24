@@ -35,6 +35,16 @@ $ git remote add origin https://github.com/username/repository-name.git
 We can then push our work to the remote location
 $ git push -u origin branch-name
 
+NB.
+Pull requests are how we merge changes we've made in branches into the master branch.
+It's normally worth deleting the branch after you've merged it's changes since there is no reason
+for it to exist any more. If you want to make future changes you can just make a new branch.
+
+We can pull the most recent changes from the remote repository back to our local repo with the
+command
+$ git pull origin master
+
+
 
 
 
